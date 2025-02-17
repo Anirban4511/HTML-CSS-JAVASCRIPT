@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    cursor: pointer;
+    color:blue;
+    text-decoration: underline;
+    list-style:none;
+    display: flex;
+    min-width: 20vw;
+    justify-content: space-around;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 5px;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+}
